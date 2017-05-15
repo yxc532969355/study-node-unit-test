@@ -1,0 +1,16 @@
+{
+  "name": "mocha-demo-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test-1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "should": "^11.2.1"
+  }
+}

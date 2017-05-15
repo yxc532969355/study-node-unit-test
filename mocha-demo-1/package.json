@@ -1,0 +1,24 @@
+{
+  "name": "mocha-demo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test-3.js",
+    "coverage":"node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- test-3.js -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1",
+    "muk": "^0.5.3",
+    "rewire": "^2.5.2",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "supertest": "^3.0.0"
+  }
+}
